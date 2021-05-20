@@ -1,0 +1,152 @@
+/**/
+
+.container {
+    max-width: 960px;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+navbar-brand img {
+    margin: 20px;
+}
+
+#mujNav li {
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+#flags {
+    margin-right: 15px;
+}
+
+#hlava {
+    position: relative;
+    background-image: url("img/budova-01.jpg");
+    height: 401px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(100% 0, 100% 90%, 50% 100%, 0 90%, 0 0);
+    margin-bottom: 0px;
+    z-index: 2;
+}
+
+#sipka1 {
+    position: relative;
+    top: 360px;
+}
+
+@media only screen and (max-width:540px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .navbar-brand {
+        position: relative;
+        width: 540px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .navbar-brand img {
+        width: 540px;
+        max-width: 100%;
+    }
+    #hlava {
+        position: relative;
+        background-image: url("img/budova-01.jpg");
+        height: 221px;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        clip-path: polygon(100% 0, 100% 90%, 50% 100%, 0 90%, 0 0);
+        margin-bottom: 0px;
+        z-index: 2;
+    }
+    #sipka1 {
+        position: relative;
+        top: 185px;
+    }
+    #text1 {
+        font-size: 30px;
+    }
+    #text2 {
+        font-size: 30px;
+    }
+}
+
+#sestiuhelniky {
+    position: relative;
+    top: -40px;
+    height: auto;
+    background-color: rgb(207, 204, 204);
+    background-position: top;
+    clip-path: polygon(0 0, 0 90%, 50% 100%, 100% 90%, 100% 0, 50% 8%);
+    margin-bottom: 0px;
+    z-index: 1;
+}
+
+#sipka2 {
+    margin-bottom: -8px;
+}
+
+#sestiuhelniky canvas {
+    width: 80px;
+}
+
+#sestiuhelniky a:link {
+    color: black;
+}
+
+#sestiuhelniky a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+#myCanvas1:hover {
+    transform: scale(1.2);
+}
+
+#myCanvas2:hover {
+    transform: scale(1.2);
+}
+
+#myCanvas3:hover {
+    transform: scale(1.2);
+}
+
+#myCanvas4:hover {
+    transform: scale(1.2);
+}
+
+#cards {
+    position: relative;
+    top: -20px;
+    background-color: transparent;
+}
+
+.footer {
+    background-color: #403E3E;
+    color: white;
+}
+
+.footer svg {
+    width: 15px;
+    fill: red;
+}
+
+.footer p {
+    margin: 0.1em;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
